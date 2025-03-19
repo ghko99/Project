@@ -86,3 +86,4 @@ if __name__ == '__main__':
 	acc, prec, recall = svm_train_test(x_train, x_test, y_train, y_test)
 	print ("\nSVM Performances")
 	print_performances(acc, prec, recall)
+	print()
